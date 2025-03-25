@@ -1,1 +1,32 @@
-entrar a carpeta: cd d:
+crear carpeta: mkdir nombre
+eliminar carpeta: rmdir nombre
+ver carpeta: ls
+entrar a la carpeta pricipal: cd nombre_carpeta:
+seguir entrando a la carpeta: cd nombre
+retroceder carpeta: cd ..
+volver a la raiz: cd
+cerrar todo: clear
+ver nombre de usuario: git config user.nombre
+ver correo de usuario: git config user.email
+crear repositorio: git init
+ver estado del repositorio:git status
+llevar al area de preparacion: git add nombre_archivo
+volver al directorio de trabajo: git rm --cached nombre_archivo
+crear commit: git commit -m "poner_cambios"
+              git commit
+ver commit: git log
+            git log --oneline
+            git log -p
+configurar editor de codigo: git config --global code.editor "code --wait"
+cambiar mensaje de commit: git commit --amend
+deshacer ultimo commit: git reset --soft HEAD~1
+rama principal: main
+crear rama:git branch nombre_archivo
+ver ramas: git branch
+cambiar de rama: git checkout nombre_archivo
+crear y abrir rama: git checkout -b nombre_archivo
+cambiar de nombre a rama: git branch -m nombre_archivo
+                          git branch -m nombre_anterior nombre_actual
+eliminar rama: git branch -d nombre
+salir de END: Q
+rama en conflicto: git merge --continue
